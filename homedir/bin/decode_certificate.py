@@ -13,8 +13,8 @@ def decode_certificate_file(file_path):
     return decoded
 
 if len(sys.argv) < 2:
-        print("Usage: python encode_cert.py <certificate_file>")
-        sys.exit(1)
+    print("Usage: python encode_cert.py <certificate_file>")
+    sys.exit(1)
 
 input_file = sys.argv[1]
 
