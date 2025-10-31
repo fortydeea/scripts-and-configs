@@ -115,3 +115,5 @@ fi
 set-title() {
   echo $'\033]30;'$*$'\007'
 }
+
+source ~/.bashrc.local
