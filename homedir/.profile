@@ -26,6 +26,6 @@ if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
 
-PATH="~/bin:/sbin:$PATH"
+PATH="/opt/nvim/bin:~/bin:/sbin:$PATH"
 
 export __GL_SYNC_TO_VBLANK=1
