@@ -29,3 +29,7 @@ fi
 PATH="/opt/nvim/bin:~/bin:/sbin:$PATH"
 
 export __GL_SYNC_TO_VBLANK=1
+
+# ssh-agent
+eval "$(ssh-agent -s)" >/dev/null 2>&1
+ssh-add ~/.ssh/id_ed25519 >/dev/null 2>&1
